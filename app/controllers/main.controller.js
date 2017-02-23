@@ -2,7 +2,8 @@ module.exports = {
 	
 	showHome: (req, res) =>{
 
-		res.send('Hi from mainController.js');
+		res.render('pages/home');
+	//	res.send('Hi from mainController.js');
 
 	}
 
